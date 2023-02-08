@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body{
+  background-image: url(./images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Avenir;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h1, h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(255, 255, 255, 0.958);
+}
+.btn-grey{
+  background-color: rgba(108, 19, 110, 0.502);
+  padding: 5px;
+  margin: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  color:rgba( 232, 234, 237, 100%);
+}
+
+.btn-grey:hover{
+  background-color:rgba(232, 51, 117, 0.693)
+}
+a{
+  color: black;
+}
+a:hover{
+  color:rgba( 33, 24, 109, 50%)
+}
+
+#logo{
+  border-radius: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.card{
+  background-color: rgba(233, 232, 237, 0.483);
+  color: black;
+  width: 500px;
+  margin: 18px auto;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: rgba(246, 243, 243, 0.643) 0px 5px 15px;
+}
+
+.icons{
+  padding: 0px;
+  margin: 0px 90px
+}
+.icons > li{
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+}
